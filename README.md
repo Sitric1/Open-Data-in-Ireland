@@ -67,7 +67,7 @@ Sources of Open Data for specific cities.
 - [JCDeceaux Bike API](https://developer.jcdecaux.com/#/opendata) - International bike scheme API which can be queried for results from the Dublinbikes scheme. Requires an API key.
 - [Dublinbikes BETA API by Derilinx](https://dublinbikes.staging.derilinx.com/api/v1/resources/ui/) - Dublinbikes BETA API by Derilinx which provides bike data without requiring authentication. Disclaimer: This API is a work in progress and it is served 'as is'.
 - [Sonitus Systems Dublin City Noise API](https://data.gov.ie/dataset/sonitus/resource/18befa04-7934-4ac8-b68d-5eeb7e76493d) - Sonitus Systems API providing access to sound level readings from the Dublin City Council sound level monitoring network. 
-  - While the Sonitus API exposes the names of the sensor locations, the separate file listing the coordinate location for each sensor is not currently available on Dublinked. The locations of each sensor can be viewed on the [Dublin City Council Noise Monitoring Map](http://www.dublincitynoise.com/locations.php) provided by Sonitus.
+  - While the Sonitus API exposes the names of the sensor locations, the separate file listing the coordinate location for each sensor is not currently available on Dublinked. The locations of each sensor can be viewed on the [Dublin City Council Noise Monitoring Map](https://dublincityairandnoise.ie/) provided by Sonitus.
   - Sonitus also have another site for a separate networtk of sound monitors covering the wider Dublin region [County Dublin Environmental Noise Monitoring Map](http://dublin-noise.sonitussystems.com/locations.php). At present this second set of data is not available via the public API. 
 
 #### Intermittent / Offline
