@@ -15,7 +15,7 @@ A list of sources of Open Data in Ireland covering both the Republic and the Nor
 
 #### Select Datasets
 - [Open Topographic Data Viewer](https://dcenr.maps.arcgis.com/apps/webappviewer/index.html?id=b7c4b0e763964070ad69bf8c1572c9f5) - The Open Topographic Data Viewer provides access to processed LiDAR data in raster format from a number of sources: Geological Survey Ireland; Department of Culture, Heritage and the Gaeltacht and
-Discovery Programme; Transport Infrastructure Ireland, New York University. The data is also accessible via [ESRI REST API](https://secure.dccae.gov.ie/arcgis/rest/services/Groundwater/LIDAR_Mosaic/ImageServer) and [WMS](https://secure.dccae.gov.ie/arcgis/services/Groundwater/LIDAR_Mosaic/ImageServer/WMSServer?request=GetCapabilities&service=WMS) via the [Open Topographic Lidar Data](https://data.gov.ie/dataset/open-topographic-lidar-data) section on Data.gov.ie.
+Discovery Programme; Transport Infrastructure Ireland, New York University. The data is also accessible via [ESRI REST API](https://secure.dccae.gov.ie/arcgis/rest/services/Groundwater/LIDAR_Mosaic/ImageServer) [INACTIVE LINK] and [WMS](https://secure.dccae.gov.ie/arcgis/services/Groundwater/LIDAR_Mosaic/ImageServer/WMSServer?request=GetCapabilities&service=WMS) [INACTIVE LINK] via the [Open Topographic Lidar Data](https://data.gov.ie/dataset/open-topographic-lidar-data) section on Data.gov.ie.
 
 ## Property Data
 - [Residential Property Price Register](https://www.propertypriceregister.ie/) - The Property Services Regulatory Authority (PSRA) provide a register of all residential properties purchased in Ireland since the 1st January 2010. The dataset includes address, price and date of sale. Note that the Register is not intended as a "Property Price Index".
