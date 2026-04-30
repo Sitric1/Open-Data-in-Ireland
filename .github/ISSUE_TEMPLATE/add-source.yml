@@ -1,0 +1,83 @@
+name: Add a new source
+description: Suggest a new data source for the catalogue
+title: "Add: "
+labels: ["new-source"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+      placeholder: e.g. Marine Institute Wave Buoy Data
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://example.org
+    validations:
+      required: true
+
+  - type: dropdown
+    id: coverage
+    attributes:
+      label: Geographic coverage
+      options:
+        - ROI
+        - NI
+        - All-island
+        - Local (specify in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Source type
+      options:
+        - Portal
+        - API
+        - Dataset
+        - Map service
+        - Viewer
+        - Archive
+        - Project
+    validations:
+      required: true
+
+  - type: input
+    id: theme
+    attributes:
+      label: Theme / category
+      placeholder: e.g. Environment, Transport, 3D, Heritage
+    validations:
+      required: true
+
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      placeholder: e.g. CC BY 4.0, OGL, Unclear
+    validations:
+      required: true
+
+  - type: input
+    id: format
+    attributes:
+      label: Data format(s)
+      placeholder: e.g. CSV, JSON, GeoJSON, LAS/LAZ
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      placeholder: One sentence about what is accessible and why it is useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      placeholder: Access requirements, known issues, related entries, etc.

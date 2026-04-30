@@ -1,87 +1,78 @@
-# Open Data in Ireland
-A list of sources of Open Data in Ireland covering both the Republic and the North.
+# Ireland Data Catalogue
 
-## Open Data
-- [Data.gov.ie](https://data.gov.ie/) - Ireland's Open Data portal: Promoting innovation and transparency through the publication of Irish Public Sector data in open, free and reusable formats.
-- [Central Statistics Office (CSO)](https://www.cso.ie/en/databases/) - The Central Statistics Office (CSO) is Ireland's national statistical office and our purpose is to impartially collect, analyse and make available statistics about Ireland’s people, society and economy. Provides Linked Open Data for the 2011 Census.
-- [OpenDataNI](https://www.opendatani.gov.uk/) - Northern Ireland's Open Data Portal, developed by the Open Data Team as part of the Digital NI initiative. The portal has been created to facilitate easy access to Northern Ireland public sector data for both reuse and redistribution. The data that is available will not be of a sensitive or personal nature, but is the raw data that drives the public sector and its services.
+A curated, all-island index of high-value Ireland-related data sources, spanning open data, public datasets, APIs, realtime feeds, geospatial resources, and 3D capture materials.
 
-## Spatial Data
-- [AIRO Data Store](http://airo.maynoothuniversity.ie/datastore) [INACTIVE LINK] - The All-Island Research Observatory (AIRO) is based at Maynooth University within the National Institute for Regional and Spatial Analysis (NIRSA). The AIRO Data Store has been created by the team at AIRO and NIRSA as a means of making our working data more accessible to the public. Data is currently available as .csv and .shp format.
-- [OSI Open Data](https://data-osi.opendata.arcgis.com/) - Ordnance Survey Ireland are the official national mapping agency for the Republic of Ireland. The release of open data by the OSi supports the growth of the Data.gov.ie open data platform and initiative.
-- [Irish OpenStreetMap Community](https://www.openstreetmap.ie/) - OpenStreetMap Ireland as an entity, provides an advocate voice for the OpenStreetMap project on the island of Ireland, in relation to interacting with other Open initiatives. Members are involved in mapping all aspects of the island under an Open Licence. To join in, you can sign up for an account on [OpenStreetMap.org](https://www.openstreetmap.org/) and start mapping what is important to you.
-- [Irish Townlands](https://www.townlands.ie/) - A crowdsourcing initiative by the Irish OpenStreetMap Community which is mapping townland, civil parish & barony boundaries in Ireland. The townland system is of Gaelic origin, pre-dating the Norman invasion, and provides the smallest administrative divisions of land in Ireland. These in turn form the building blocks for higher-level administrative units. For this reason the project provides a means of using OSM data for a more fine grained level of statistical analysis than is possible with current open data for city and county boundaries. See the [Ireland/Mapping Townlands](https://wiki.openstreetmap.org/wiki/Ireland/Mapping_Townlands) wiki for further details.
-- [Geoportal](https://www.geoportal.ie/geoportal/catalog/main/home.page) [INACTIVE LINK] - This portal is a shared government resource that provides access to a network of spatial data from a wide variety of Irish public bodies and organisations for download and viewing. It has been created as part of the Irish Spatial Data Infrastructure (ISDI) project and is designed to facilitate the on-line sharing of spatial data according to the requirements of the Irish eGovernment Strategy and the EU INSPIRE Directive.
+## Scope
 
-#### Select Datasets
-- [Open Topographic Data Viewer](https://dcenr.maps.arcgis.com/apps/webappviewer/index.html?id=b7c4b0e763964070ad69bf8c1572c9f5) - The Open Topographic Data Viewer provides access to processed LiDAR data in raster format from a number of sources: Geological Survey Ireland; Department of Culture, Heritage and the Gaeltacht and
-Discovery Programme; Transport Infrastructure Ireland, New York University. The data is also accessible via [ESRI REST API](https://secure.dccae.gov.ie/arcgis/rest/services/Groundwater/LIDAR_Mosaic/ImageServer) [INACTIVE LINK] and [WMS](https://secure.dccae.gov.ie/arcgis/services/Groundwater/LIDAR_Mosaic/ImageServer/WMSServer?request=GetCapabilities&service=WMS) [INACTIVE LINK] via the [Open Topographic Lidar Data](https://data.gov.ie/dataset/open-topographic-lidar-data) section on Data.gov.ie.
+- **Geographic:** Republic of Ireland, Northern Ireland, and all-island topics.
+- **Audience:** developers, researchers, mappers, OSINT analysts, heritage-tech practitioners, and civic data users.
+- **Inclusion criteria:** discoverable, Ireland-relevant, and metadata-documented sources with clear access paths.
 
-## Property Data
-- [Residential Property Price Register](https://www.propertypriceregister.ie/) - The Property Services Regulatory Authority (PSRA) provide a register of all residential properties purchased in Ireland since the 1st January 2010. The dataset includes address, price and date of sale. Note that the Register is not intended as a "Property Price Index".
+## Not in Scope
 
-## Energy Data
-- [SEAI National BER Research Tool](https://ndber.seai.ie/BERResearchTool/ber/search.aspx) - The Sustainable Energy Authority of Ireland (SEAI) administer the BER certificate scheme which indicates the energy performance for buildings. The BER certificate indicates the annual primary energy usage and carbon dioxide emissions associated with the provision of space heating, water heating, ventilation and lighting to the dwelling. The BER Research Tool provides the data for download in a tabular, text-based format.
+- Hosting raw datasets or mirrors.
+- Scraping protected or authentication-gated sources.
+- Generic global resources that lack meaningful Ireland relevance.
 
-## Transport Data
-- [Transport Infrastructure Ireland Open Data Portal](http://data.tii.ie/) - This site hosts a range of data sets published by Transport Infrastructure Ireland. The TII also provide the live [TII Traffic](https://www.tiitraffic.ie/) website which includes travel bulletins and images from their national network of motorway traffic cameras.
+## Quick Navigation
 
-#### Select Datasets
-- [Transport For Ireland](https://www.transportforireland.ie/transitData/PT_Data.html) - GTFS for for Irish Rail, Bus Eireann, Dublin Bus and Luas. Read the [General Transit Feed (GTFS)](https://gtfs.org) specification for further details.
-- [Irish Rail Realtime API](http://api.irishrail.ie/realtime/) - API provides the current location of train services from Iarnród Éireann's central signalling system, and the scheduled journey times from areas under local signalling control.
-- [TII National Roads Weather Station Data](https://data.gov.ie/dataset/national-roads-weather-station-data) - Available via Data.gov.ie this provides areal-time feed from TII's national network of 80+ weather stations. Data includes air temperature, precipitation, wind speed & direction and Road Surface temperature. Information is updated at 5 minute intervals via [XML feed](http://data.tii.ie/Datasets/Its/DatexII/WeatherData/Content.xml). A separate XML list of sites [http://data.tii.ie/Datasets/Its/DatexII/WeatherSites/Content.xml](http://data.tii.ie/Datasets/Its/DatexII/WeatherSites/Content.xml) is also available.
+| Category | Description |
+|----------|-------------|
+| [National Portals](catalog/national-portals.md) | State-scale discovery platforms |
+| [Government & Public Bodies](catalog/government-and-public-bodies.md) | Official publishers with direct datasets/APIs |
+| [Geospatial & Mapping](catalog/geospatial-and-mapping.md) | Basemaps, boundaries, map services |
+| [Transport & Mobility](catalog/transport-and-mobility.md) | GTFS, realtime transit, traffic feeds |
+| [Environment & Climate](catalog/environment-and-climate.md) | Weather, hydrology, air quality, marine |
+| [Cities & Regions](catalog/cities-and-regions.md) | Local authority and city-level data hubs |
+| [Heritage & Culture](catalog/heritage-and-culture.md) | Digital heritage, monuments, cultural archives |
+| [Research & Academic](catalog/research-and-academic.md) | University datasets, institutional repositories |
+| [3D, LiDAR & Photogrammetry](catalog/three-d-and-photogrammetry.md) | Point clouds, meshes, Gaussian splats, LiDAR |
+| [Realtime Feeds & Operational](catalog/realtime-feeds-and-operational.md) | Live sensor networks, telemetry, streaming data |
+| [Commercial & Restricted](catalog/commercial-and-restricted.md) | Useful but paid or licence-restricted sources |
+| [Watchlist](catalog/watchlist.md) | Unvalidated, intermittent, or unclear-licence items |
 
-## Tourism Data
-- [Fáilte Ireland](https://www.failteireland.ie/) - Fáilte Ireland is the National Tourism Development Authority for Ireland. Their [Research Insights department](https://www.failteireland.ie/Research-and-Insights.aspx) provide a range of PDF reports. They also provide a [Devloper Portal and API](https://failteireland.portal.azure-api.net/) [INACTIVE LINK] providing lovation-based information on Activities, Attractions and Accomodation. These datasets are also available as downloadable CSVs via [Data.Gov.ie](https://data.gov.ie/organization/failte-ireland).
+## Status Labels
 
-## Environment Data
-- [Met Éireann](https://www.met.ie/) - The Irish meteorological service Met Éireann provide open data via [Data.Gov.IE](https://data.gov.ie/organization/meteireann). Large numbers of direct download CSVs or corresponding JSON endpoints are provided for specific individual locations. More usefully the also provide two XML APIs:
-  - [Met Éireann Live Text Forecast Data](https://data.gov.ie/dataset/met-eireann-live-text-forecast-data) - This API provides endpoints live national weather information latest observations, weather warnings, coastal reports, farming commentary and a range of other forecasts.
-  - [Met Éireann Weather Forecast API](https://data.gov.ie/dataset/met-eireann-weather-forecast-api) - This API can be queried by geolocation and outputs in (i) 1-hour intervals out to 90 hours, (ii) three-hour intervals from 90h to 144 hours, and (iii) six-hour intervals from 144 hours out to 240 hours. 
-- [Environment Protection Agency (EPA)](https://www.epa.ie/) - The EPA provide a range of reports and datasets via their [GeoPortal](http://gis.epa.ie/). The [EPA Maps](https://gis.epa.ie/EPAMaps/) portal provides a useful visualisation of available data sources. The site also provides [JSON Access to Air Quality Index for Health](https://www.epa.ie/air/quality/dev/).
-- [OPW Water Levels](waterlevel.ie) - Website providing real-time access to the Office of Public Works (OPW) national network of hydrometric monitors. The sites features a [Real-Time Water Levels API](http://waterlevel.ie/page/api/) providing endpoints for locations of monitoring stations and latest sensor readings in GeoJSON format. Archive data for the day, week and month, can be downloaded as CSV. Archival data can be obtained via OPW's [Hydro-Data](https://waterlevel.ie/hydro-data/#/overview/Waterlevel) website.
-- [Marine Institute Data Centre](https://www.marine.ie/Home/site-area/data-services/search-marine-data/access-data) - The Marine Institute provide a range of maritime data including a real-time feed of data from the [Irish National Tide Gauge Network API](https://erddap.marine.ie/erddap/tabledap/IrishNationalTideGaugeNetwork.html).
+Each entry carries one of the following status tokens:
 
-## Health And Wellbeing
-- [HSE Patients awaiting admission (TrolleyGAR)](https://www.hse.ie/eng/services/campaigns/trolleygar.html) [INACTIVE LINK] - Three times daily at 8 a.m., 2 p.m. and 8 p.m. acute hospitals report the number of patients awaiting admission to an inpatient hospital bed. The system known as TrolleyGAR (Green/Amber/Red) enables daily monitoring of ED performance and helps trigger the hospitals’ response during busy periods. Daily data can be accessed by date using the [TrolleyGAR](http://137.191.241.85/ed/) webform.
-- [INMO Trolley Watch](https://www.inmo.ie/Trolley_Ward_Watch) [INACTIVE LINK] - Every morning at 8am, members of the Irish Nurses and Midwives Organisation (INMO) count how many patients are waiting in the Emergency Department for a bed and how many are waiting in wards elsewhere in the hospital. The INMO started Trolley Watch in 2004.
+| Label | Meaning |
+|-------|---------|
+| `active` | Link works, data updated or operational, licence discoverable |
+| `legacy` | Reachable but stale, partially broken, or superseded |
+| `archived` | Intentionally frozen or offline; kept for reference |
+| `unclear-licence` | Viewable but reuse terms not clearly stated |
+| `commercial/non-open` | Paid, proprietary, or restricted access |
+| `watchlist` | Not yet validated; pending review |
 
-## Business Data
-- [Companies Registration Office (CRO)](https://www.cro.ie/en-ie/) - The Companies Registration Office (CRO) is the central repository of public statutory information on Irish companies and business names. CRO provide a RESTful API for company searches called [CRO Open Services](https://services.cro.ie/) which returns company names, addresses, Eircodes, registration dates and statuses.
+Full definitions: [docs/status-labels.md](docs/status-labels.md)
 
-# Cities
-Sources of Open Data for specific cities.
+## Contributing
 
-## Dublin
-- [Dublinked](https://data.smartdublin.ie/) - Open data for the Dublin region. Data is provided as part of the Smart Dublin initiative of the four Dublin Local Authorities. This project aims to engage with smart technology providers, researchers and citizens to solve challenges and improve city life.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add sources, report broken links, and maintain entries.
 
-#### Select Datasets
-- [UCD Aerial laser scanning (ALS) for in Dublin city in 2007](https://digital.ucd.ie/view/ucdlib:30462) [INACTIVE LINK] - Aerial laser scanning (ALS) data collected over an area of around 1 square km in Dublin city in 2007. A total of ~225 million points were acquired for a dense urban neighbourhood. An intensity value is provided for each point while colour information is provided by cameras acquiring images during the flyover and is transferred to scan points.
-- [NYU 2015 Aerial Laser and Photogrammetry Survey of Dublin City](https://geo.nyu.edu/catalog/nyu_2451_38684) [INACTIVE LINK] - High density, aerial remote sensing data for a 2km² area of Dublin, Ireland obtained at an average flying altitude of 300m. Collected in March 2015, the data include aerial laser scanning (ALS) from 41 flight paths in the form of a 3D point-cloud (LAZ) and 3D full waveform ALS (LAS and Pulsewave), and imagery data including ortho-rectified 2D rasters (RGBi) and oblique images.
-  - [V-Sense Annotated LiDAR Point Cloud](https://v-sense.scss.tcd.ie/dublincity/) - A semantically labelled and segmented point cloud incorporating 13 classes of points derived from the NYU 2015 LiDAR and Photogrammetry survey (above). The points were manually labelled to support use cases in machine learning and to provide ground truth for city-scale image-based 3D reconstruction.
-- [Dublin Economic Monitor](https://data.smartdublin.ie/dataset/dublin-economic-monitor) - 13 Regional Economic Indicators to monitor economic development in the Dublin City Region. Data are available via CKAN API.
-- [Real-time Passenger Information (RTPI) for Dublin Bus, Bus Eireann, Luas and Irish rail](https://data.smartdublin.ie/dataset/real-time-passenger-information-rtpi-for-dublin-bus-bus-eireann-luas-and-irish-rail) - Main page on Dublinked for the real-time transport information. Provides links to Transport For Ireland GTFS and Irish Rail Realtime API [see [Transport Data](https://github.com/virtualarchitectures/Open-Data-in-Ireland#transport-data) above]. Also provides links to Dublin Bus Realtime API and associated documentation. 
-  - [Dublin Bus GTFS-R Realtime API](https://developer.nationaltransport.ie/api-details#api=gtfsr&operation=gtfsr-v2) The new GTFS standard API for retrieving real time bus information, timetables and bus stops. Replaces the old RTPI API that was deprecated on 30th September 2020.
-- [Luas Forecasting API](http://luasforecasts.rpa.ie/analysis/view.aspx) - A near real-time API for estimated time of arrival of trams at each of the stops along the Red and Green Lines.
-- [Dublin Multi Story Car Parking Space Availability](https://data.smartdublin.ie/dataset/multi-story-car-parking-space-availability) - Multi Story Car Parking Space Availability Dublin City Councils 'Live Parking Spaces' service gathers information from car parks around Dublin to show you what parking spaces are available. Updated every 5 mins.
-- [JCDeceaux Bike API](https://developer.jcdecaux.com/#/opendata) - International bike scheme API which can be queried for results from the Dublinbikes scheme. Requires an API key.
-- [Dublinbikes BETA API by Derilinx](https://dublinbikes.staging.derilinx.com/api/v1/resources/ui/) - Dublinbikes BETA API by Derilinx which provides bike data without requiring authentication. Disclaimer: This API is a work in progress and it is served 'as is'.
-- [Sonitus Systems Dublin City Noise API](https://data.gov.ie/dataset/sonitus/resource/18befa04-7934-4ac8-b68d-5eeb7e76493d) - Sonitus Systems API providing access to sound level readings from the Dublin City Council sound level monitoring network. 
-  - While the Sonitus API exposes the names of the sensor locations, the separate file listing the coordinate location for each sensor is not currently available on Dublinked. The locations of each sensor can be viewed on the [Dublin City Council Noise Monitoring Map](https://dublincityairandnoise.ie/) provided by Sonitus.
-  - Sonitus also have another site for a separate networtk of sound monitors covering the wider Dublin region [County Dublin Environmental Noise Monitoring Map](http://dublin-noise.sonitussystems.com/locations.php). At present this second set of data is not available via the public API. 
+Use the [submission checklist](docs/submission-checklist.md) before opening a PR.
 
-#### Intermittent / Offline
-- [Dublin City Council Traffic Cameras](https://www.dublincity.ie/dublintraffic/) - Central Dublin Traffic Cam feeds. [NOTE: Offline since May 2017]
- 
-## Cork
-- [Cork Smart Gateway](http://data.corkcity.ie/) - The Smart Gateway aims to enhance the reputation of Cork as an attractive place to live, work, visit and invest. Here you will find Data all about Cork which is available in an open format for you to download, conduct research, develop web and mobile applications, design data visualisations and more.
+## Sourcing Standards
 
-# Other Useful Links
-- [GeoHive](https://www.geohive.ie/) - GeoHive is an initiative by Ordnance Survey Ireland to provide easy access to publically available spatial data. Data can be viewed online with the interactive MapViewer application or accessed via endpoints in one of the following formats: REST, OGC (WMS) or KML.
-- [IRLOGI](http://www.irlogi.ie/) - The Irish Organisation for Geographic Information (IRLOGI) is the umbrella organisation for the geographical information industry in Ireland and is a member of EUROGI – the European umbrella organisation for geographical information. IRLOGI was formed in 1995 to represent the Irish GI community. Its mission is to stimulate the development and effective use of Geographic Information in Ireland. The website includes useful links to different sources of geospatial data in Ireland.
-- [UCD Library Guide to Spatial Data for Ireland](http://libguides.ucd.ie/gisguide/FindSpatialData) - University College Dublin provide a guide for finding both spatial and statistical datasets for Ireland.
-- [OpenStreetMap Wiki: Ireland/Open Data](https://wiki.openstreetmap.org/wiki/Ireland/Open_Data) - A central listing of sources of open data within Ireland that documents details of permission to use the data held by these sources for the improvement of OpenStreetMap data covering the island of Ireland.
-- [EU Open Data Portal](http://data.europa.eu/euodp/en/home) - The European Union Open Data Portal (EU ODP) provides access to an expanding range of data from the European Union (EU) institutions and other EU bodies. You can use and reuse these data for commercial or non-commercial purposes.
+Entries must meet minimum criteria:
 
-## Service Providers
-- [Derilinx](https://derilinx.com/) - Derilinx provides end-to-end Open Data management for Public-Sector Bodies. Derilinx focuses on provision of Linked & Open Data solutions.
+1. Clear Ireland relevance (ROI, NI, or all-island).
+2. Licence stated or determinable.
+3. Machine-readable access path (download, API, or service endpoint).
+4. Not duplicating an entry already listed elsewhere in the catalogue.
+
+## Attribution
+
+This project originated as a fork of [`virtualarchitectures/Open-Data-in-Ireland`](https://github.com/virtualarchitectures/Open-Data-in-Ireland). It has since been reorganized with expanded scope, a new taxonomy, standardized entry metadata, and distinct editorial standards.
+
+## Roadmap
+
+- **Phase 1** — Restructure and scaffold (current).
+- **Phase 2** — Normalize all existing entries with metadata blocks.
+- **Phase 3** — Expand 3D/photogrammetry, heritage, and research categories.
+- **Phase 4** — Licence audit and dead-link review.
+- **Phase 5** — Ongoing maintenance cadence and community contributions.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for structural changes and major updates.

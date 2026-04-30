@@ -1,0 +1,54 @@
+name: Report a broken link
+description: Flag an entry with a dead or changed URL
+title: "Broken link: "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: entry-name
+    attributes:
+      label: Entry name
+      placeholder: e.g. Fáilte Ireland Developer Portal
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: https://example.org/broken
+    validations:
+      required: true
+
+  - type: input
+    id: category-file
+    attributes:
+      label: Category file
+      placeholder: e.g. catalog/government-and-public-bodies.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Error observed
+      options:
+        - 404 Not Found
+        - Connection timeout
+        - Domain expired
+        - Redirects to unrelated page
+        - Requires authentication not previously needed
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: input
+    id: replacement-url
+    attributes:
+      label: Replacement URL (if known)
+      placeholder: https://example.org/new-location
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      placeholder: When you noticed, any alternative sources, etc.
